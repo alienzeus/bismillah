@@ -84,20 +84,20 @@ export default function Contact() {
               {
                 icon: <Mail className="h-6 w-6" />,
                 title: "Email",
-                content: "contact@digiserv.com",
-                link: "mailto:contact@digiserv.com",
+                content: "hello@dabaa.digital",
+                link: "mailto:hello@dabaa.digital",
               },
               {
                 icon: <Phone className="h-6 w-6" />,
                 title: "Phone",
-                content: "(123) 456-7890",
-                link: "tel:+1234567890",
+                content: "+880 1853 450158",
+                link: "tel:+8801853450158",
               },
               {
                 icon: <MapPin className="h-6 w-6" />,
                 title: "Address",
-                content: "123 Digital Street, Tech City",
-                link: "https://maps.google.com",
+                content: "Dhaka, Bangladesh",
+                link: "https://maps.app.goo.gl/AMpDTrxGz9AiXAig9",
               },
             ].map((item, index) => (
               <motion.a
